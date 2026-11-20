@@ -46,8 +46,8 @@ const CONFIG = {
 (function () {
   "use strict";
   const DELIVERY_FEE_CENTS = 0;
-  const PLACEHOLDER_DESCRIPTION = "Descrição em breve.";
-  const PLACEHOLDER_PRICE_LABEL = "Preço a definir";
+  const PLACEHOLDER_DESCRIPTION = "";
+  const PLACEHOLDER_PRICE_LABEL = "";
 
   const currencyFormatter = new Intl.NumberFormat("pt-BR", {
     style: "currency",
